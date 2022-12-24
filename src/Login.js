@@ -49,8 +49,8 @@ pauseOnHover
 theme="colored"
 />
     <div className='container-fluid'>
-      <div className='row'>
-        <div className='col-lg-6 col-md-7 box-skew d-flex'>
+      <div className='row' style={{width:'100%'}}>
+        <div className='col-lg-6 col-md-7 col-sm-12 box-skew d-flex'>
           <div className='authincation-content'>
             <div className='mb-4'>
               <h3 className='mb-1 font-w600 welcome'>Welcome to Evoload</h3>
