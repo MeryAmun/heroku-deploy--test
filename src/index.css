@@ -664,9 +664,12 @@ code {
     font-size: 1.5rem;
   }
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1091px) {
   .login-form-bx .box-skew .authincation-content {
     width: auto;
+  }
+  .login-form-bx .box-skew{
+flex: 1;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -683,7 +686,9 @@ code {
   .login-form-bx .box-skew .authincation-content:after {
     width: 100%;
   }
-
+  .login-form-bx .box-skew1{
+    flex: 1;
+  }
   .login-form-bx .box-skew,
   .login-form-bx .box-skew1 {
     height: 100%;
@@ -727,9 +732,5 @@ code {
     padding-left: 15px;
   }
 }
-
-
-
-
 
 
