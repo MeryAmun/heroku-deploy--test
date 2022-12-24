@@ -6,14 +6,14 @@ import logo from './images/evoload-logo-light.svg'
 
 
 function Login (props) {
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
+  const [email ] = useState('')
+  const [password] = useState('')
 
 
   const createNotification = () => {
- toast.error("COMING SOON !!!!!!",{
+ toast.error("COMING SOON :)",{
   position: "top-center",
-  autoClose: false,
+  autoClose: 5000,
   hideProgressBar: false,
   closeOnClick: true,
   pauseOnHover: true,
@@ -38,7 +38,7 @@ e.preventDefault();
     <div className='login-form-bx'>
       <ToastContainer
 position="top-center"
-autoClose={false}
+autoClose={5000}
 hideProgressBar={false}
 newestOnTop={false}
 closeOnClick
