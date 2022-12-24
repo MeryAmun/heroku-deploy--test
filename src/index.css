@@ -630,7 +630,7 @@ input[type="checkbox"]:checked:after {
 }
 
 .image-upload-icon {
-  color: rgb(64, 24, 157);
+  color:#0086e6;;
   background-color: #fff;
   font-size: 14;
   font-stretch: 100%;
