@@ -11,7 +11,7 @@ function Login (props) {
 
 
   const createNotification = () => {
- toast.error("COMING SOON :)",{
+ toast.error("COMING SOON, January 30th 2023",{
   position: "top-center",
   autoClose: 5000,
   hideProgressBar: false,
@@ -143,24 +143,24 @@ theme="colored"
             </p>
             <ul className='social-icons mt-4'>
               <li>
-                <button onClick={handleSubmit}>
-                  <i className='fa fa-google image-upload-icon' />
-                </button>
+                <a href='https://twitter.com/evoload' target='blank'>
+                <i class="fa fa-twitter image-upload-icon"></i>
+                </a>
               </li>
               <li>
-                <button onClick={handleSubmit}>
+                <a href='https://www.linkedin.com/company/evoload/?originalSubdomain=ro' target='blank'>
                   <i className='fa fa-linkedin image-upload-icon' />
-                </button>
+                </a>
               </li>
               <li>
-                <button onClick={handleSubmit}>
-                  <i className='fa fa-facebook image-upload-icon' />
-                </button>
+                <a href='https://www.youtube.com/channel/UCaGw0SwH9TE6Pe6KFJt7Wpg' target='blank'>
+                  <i className='fa fa-youtube image-upload-icon' />
+                </a>
               </li>
               <li>
-                <button onClick={handleSubmit}>
-                <i class="fa fa-instagram image-upload-icon"></i>
-                </button>
+                <a href='https://t.me/evoloadofficialEN' target='blank'>
+                <i class="fa fa-telegram image-upload-icon"></i>
+                </a>
               </li>
             </ul>
           </div>
