@@ -682,7 +682,12 @@ flex: 1;
     display: block;
     width: 100%;
   }
-
+  .section-head{
+    font-size: 20px;
+  }
+  .section-paragraph{
+    font-size: 14px;
+  }
   .login-form-bx .box-skew .authincation-content:after {
     width: 100%;
   }
@@ -730,6 +735,12 @@ flex: 1;
     padding-top: 15px;
     padding-right: 15px;
     padding-left: 15px;
+  }
+  .section-head{
+    font-size: 20px;
+  }
+  .section-paragraph{
+    font-size: 14px;
   }
 }
 
