@@ -12,7 +12,7 @@ line-height: 25px;
 }
 .message{
   font-size: 14px;
-  font-size: 600;
+  font-weight: 400;
   font-family: 'Poppins', sans-serif;
   display: block;
   color: rgb(126, 126, 126);
@@ -387,7 +387,7 @@ input{
 }
 
 .form-check-label {
-  margin-left: 5px;
+  margin-left: 15px;
   margin-top: 3px;
 }
 
@@ -397,7 +397,6 @@ input{
   font-size: 14px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
-  margin: 3px 5px 0px 0px;
   height: 21px;
   text-align: left;
   line-height: normal;
@@ -704,6 +703,15 @@ padding: 0;
 
 .image-upload-icon {
   color: rgb(64, 24, 157);
+  font-size: 14;
+  font-stretch: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'FontAwesome';
+  line-height: 14px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 code {

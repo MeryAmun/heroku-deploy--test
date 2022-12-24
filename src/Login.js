@@ -76,6 +76,7 @@ theme="colored"
                   className='px-5 py-2 border'
                   value={email}
                   onChange={handleChange}
+                  style={{width:'100%'}}
                 />
                 
               </div>
@@ -88,12 +89,13 @@ theme="colored"
                   className='px-5 py-2 border'
                   value={password}
                   onChange={handleChange}
+                  style={{width:'100%'}}
                 />
                 
               </div>
               <div className='form-row d-flex justify-content-between mt-4 mb-2'>
                 <div className='form-group'>
-                  <div className='custom-control custom-checkbox px-5'>
+                  <div className='custom-control custom-checkbox '  style={{width:'100%'}}>
                     <input
                       type='checkbox'
                       className='form-check-input mr-2'
@@ -103,6 +105,7 @@ theme="colored"
                     <label
                       className='form-check-label ml-2'
                       htmlFor='basic_checkbox_1'
+                      style={{width:'100%'}}
                     >
                       Remember my preference
                     </label>
@@ -113,14 +116,14 @@ theme="colored"
                   <button type='submit' 
                   className='py-2 px-4 btn-block border bg-primary text-white' 
                   onClick={handleSubmit}
-                  style={{width:'70%'}}
+                  style={{width:'100%'}}
                   >
                     Sign In
                   </button>
                 </div>
             </form>
-            <div className='new-account mt-2'>
-              <p className='form-check-label mb-0'>
+            <div className='new-account mt-2'  style={{width:'100%'}}>
+              <p className='form-check-label mb-0 message'>
                 Don't have an account?
                 <Link to='#' className='link text-black text-decoration-none mx-1' onClick={handleSubmit}>
                   Sign up
