@@ -93,15 +93,15 @@ theme="colored"
               </div>
               <div className='form-row d-flex justify-content-between mt-4 mb-2'>
                 <div className='form-group'>
-                  <div className='custom-control custom-checkbox ml-1 '>
+                  <div className='custom-control custom-checkbox px-5'>
                     <input
                       type='checkbox'
-                      className='form-check-input bg-light border p-2'
+                      className='form-check-input mr-2'
                       id='basic_checkbox_1'
                       onChange={handleChange}
                     />
                     <label
-                      className='form-check-label px-2 ml-4'
+                      className='form-check-label ml-2'
                       htmlFor='basic_checkbox_1'
                     >
                       Remember my preference
@@ -131,7 +131,7 @@ theme="colored"
         </div>
         <div className='col-lg-6 col-md-5 d-flex box-skew1'>
           <div className='inner-content align-self-center'>
-          <Link to='/dashboard' className='login-logo'>
+          <Link to='#' className='login-logo'  onClick={handleSubmit}>
                 <img src={logo} alt='' className='logo-icon mr-2' />
               </Link>
             <h2 className='text-white section-head'>Login to Evoload Drivers Hub</h2>
