@@ -157,6 +157,11 @@ theme="colored"
                   <i className='fa fa-facebook image-upload-icon' />
                 </button>
               </li>
+              <li>
+                <button onClick={handleSubmit}>
+                <i class="fa fa-instagram image-upload-icon"></i>
+                </button>
+              </li>
             </ul>
           </div>
         </div>
