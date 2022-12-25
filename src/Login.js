@@ -11,7 +11,7 @@ function Login (props) {
 
 
   const createNotification = () => {
- toast.error("COMING SOON, January 30th 2023",{
+ toast.info("COMING SOON, January 30th 2023",{
   position: "top-center",
   autoClose: 5000,
   hideProgressBar: false,
