@@ -759,4 +759,10 @@ flex: 1;
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .create-profile {
+    font-size: 15px;
+    padding: 20px 10px;
+  }
+}
 

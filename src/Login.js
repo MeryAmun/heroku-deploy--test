@@ -53,7 +53,7 @@ theme="colored"
         <div className='col-lg-6 col-md-7 col-sm-12 box-skew d-flex'>
           <div className='authincation-content'>
             <div className='mb-4'>
-              <h3 className='mb-1 font-w600 welcome'>Welcome to Evoload</h3>
+              <h3 className='mb-1 font-w600 welcome'>Launch 30th January 2023</h3>
               <p className='message'>Sign in by entering information below</p>
             </div>
             {props.errorMessage && (
